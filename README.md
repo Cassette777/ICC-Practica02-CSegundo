@@ -279,3 +279,5 @@ javadoc Fecha.java
 - Los _archivos.java_ se encuentran contenidos en la secuencia de carpetas: /CSegundo/practica02/src/icc/
     
 - El código fue probado en Java 24.
+
+- El programa funciona con int ante el monto, por lo que se debe considerar su rango al dar un monto de inversión.
