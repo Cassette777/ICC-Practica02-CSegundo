@@ -4,13 +4,13 @@
  	* @version 1a version
  	*/
 
-	import java.util.Scanner;
+ import java.util.Scanner;
 
 	/**
  	* Clase que crea una fecha y maneja sus operaciones
  	*/
 
-	public class Fecha{
+ public class Fecha{
 
    	//Declaración  de atributos
 		private int dia;
@@ -24,11 +24,11 @@
   	* La fecha se inicializa como 1/1/2026 al usar el método obtenerFecha().
   	*/
 
-  	public Fecha(){
-		dia = 1;
-		mes = 1;
-		year = 2026;
-  	}
+  		public Fecha(){
+			dia = 1;
+			mes = 1;
+			year = 2026;
+  		}
 
   	/** Constructor para la creación de una fecha mediante dias, meses, y año en int.
    	* @param dia El dia designado al crear la fecha
@@ -36,12 +36,12 @@
    	* @param year El año designado
    	* */ 
 
-  	public Fecha(int dia, int mes, int year){
-	  	this.dia = dia;
-	  	this.mes = mes;
-	  	this.year = year;
+  		public Fecha(int dia, int mes, int year){
+	  		this.dia = dia;
+	  		this.mes = mes;
+	  		this.year = year;
 	
-  	}
+  		}
   
   	/** Constructor para la creación de una fecha mediante int y String mes
   	 * @param dia El dia designado.
@@ -51,11 +51,11 @@
   	 * Crea una fecha cambiando el String por int para usar el resto de métodos.
   	 */
 
-  	public Fecha(int dia, String mes, int year){
-		  this.dia = dia;
-	  	this.mes = obtenerNumMes(mes);
-	  	this.year = year;
- 	}
+  		public Fecha(int dia, String mes, int year){
+		    this.dia = dia;
+	  		this.mes = obtenerNumMes(mes);
+	  		this.year = year;
+ 		}
   
   		/**
    		* Método setter para asignar día
@@ -473,7 +473,7 @@
 		}
 
   	
-	}
+}
 
 
 
